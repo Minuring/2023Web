@@ -1,0 +1,33 @@
+html, body {
+    padding:0px;
+    margin:0px;
+    height:100%;
+}
+header {
+    float:left;
+    background-color: yellow;
+    height:20%;
+}
+header h1 { text-align: center; }
+nav {
+    background-color: orange;
+    float:left;
+    height:72%;
+    display:inline-block; 
+    width:15%;
+}
+section {
+    background-color: lightblue;
+    float:left;
+    width:85%;
+    left:15%;
+    height:72%;
+    display:inline-block;
+}
+table { width: 90%;}
+footer{
+    float:left;
+    height:8%;
+    width:100%;
+    background-color: lightpink;
+}

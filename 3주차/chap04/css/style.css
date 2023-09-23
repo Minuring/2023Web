@@ -1,0 +1,29 @@
+body{ background-color: aliceblue; width:100%;}
+h1{ color:brown; text-align: center;}
+nav ul { border:1px solid black;}
+dd{
+    font-family:'Times New Roman', Times, serif;
+}
+dl a,h2{
+    font-size:24px;
+    color: blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px skyblue;
+}
+dl a:visited{
+    font-size:24px;
+    color:purple;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px skyblue;
+}
+p{
+    text-indent: 1em;
+    font-size:1em;
+}
+nav a { text-decoration: none;}
+table{ width:80%;}
+footer{ background-color: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+footer copyright, a{margin-left: 20px;}

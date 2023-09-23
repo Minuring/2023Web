@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 테두리 만들기</title>
+    <style>
+        p{
+            width:300px;
+            height:150px;
+            padding: 5px;
+            border: 15px solid lightgray;
+            border-image: url(../images/border.png) 50 round;
+        }
+    </style>
+</head>
+<body class="main">
+    <header>
+        <h1>이미지 테두리 만들기</h1>
+        <hr>
+    </header>
+    <p id="round"><img id="img" src="../images/nature.jpg" alt="이미지" width="300px"></p>
+</body>
+</html>
