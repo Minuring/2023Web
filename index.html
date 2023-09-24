@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>나의 소개</title>
-    <style>
-        body { background-color:lightgray; color:black;
-        margin-left : 80px; margin-right: 80px; }
-        h1{ text-align: center; font-size:40px; }
-        hr{ height: 2px; border: solid grey; 
-            background-color: grey; }
-        div{ background-color: darkgrey; padding:30px;
-        height:260px; }
-        p{ font-size : 20px; }
-        span{ color:sienna; }
-        img{ float:left; margin-right:20px; }
-    </style>
-    <script>
-        function showimg(){
-            document.getElementById("me").src="me.jpg";
-        }
-        function hideimg(){
-            document.getElementById("me").src="";
-        }
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.css" integrity="sha512-n5zPz6LZB0QV1eraRj4OOxRbsV7a12eAGfFcrJ4bBFxxAwwYDp542z5M0w24tKPEhKk2QzjjIpR5hpOjJtGGoA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- md-block -->
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
 </head>
 <body>
-    <h1 onmouseover="showimg()" onmouseout="hideimg()">이민우</h1>
-    <hr>
-    <div><img id="me" src="" alt="사진없음" 
-        width="250px" height="250px">
-        <p>안녕하세요! 소프트웨어학과 2학년 이민우입니다.<br>
-        어릴 때부터 프로그래밍을 좋아했고, 현재 가장 흥미있는 과목은
-        <span>웹프로그래밍</span>, 
-        <span>자바프로그래밍응용</span>입니다.</p>
+    <header>
+        <section id="info">
+            <div id="imgblock"><img src="./info.png" alt=""></div>
+            <div class="infotext">
+                <table>
+                    <tbody>
+                        <tr id="myname">
+                            <th>이름</th>
+                            <td>이민우</td>
+                        </tr>
+                        <tr>
+                            <th>학번</th>
+                            <td>2020875038</td>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </header>
+    
+    <div class="markdown-body">
+        <md-block src="./README.md">
+            <!-- README.md 로드 실패시 보이는 문구 -->
+            `README.md` 로딩 실패
+        </md-block>
     </div>
 </body>
 </html>
