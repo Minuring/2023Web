@@ -52,7 +52,7 @@
   </tr>
   <tr>
     <th rowspan=11>HTML</th>
-    <td><a href="./3주차/html/OpenChallenge_04.html">OpenChallenge 04</a></td>
+    <td><a href="./3주차/chap04/html/OpenChallenge_04.html">OpenChallenge 04</a></td>
   </tr>
   <tr><td><a href="./3주차/chap04/html/q01.html">실습문제 01</a></td></tr>
   <tr><td><a href="./3주차/chap04/html/q02.html">실습문제 02</a></td></tr>
@@ -74,7 +74,7 @@
   </tr>
   <tr>
     <th rowspan=15>HTML</th>
-    <td><a href="./3주차/html/OpenChallenge_05.html">OpenChallenge 05</a></td>
+    <td><a href="./3주차/chap05/html/OpenChallenge_05.html">OpenChallenge 05</a></td>
   </tr>
   <tr><td><a href="./3주차/chap05/html/q01-1.html">실습문제 01-1</a></td></tr>
   <tr><td><a href="./3주차/chap05/html/q01-2.html">실습문제 01-2</a></td></tr>
