@@ -1,3 +1,9 @@
+---
+title : README
+encoding : utf-8
+---
+<meta charset="UTF-8">
+
 # 📰웹프로그래밍
 <br>
 이 Repository에는 2023년 2학기 웹 프로그래밍 과제들이 있습니다.
