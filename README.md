@@ -1,7 +1,3 @@
----
-title : README
-encoding : utf-8
----
 <meta charset="UTF-8">
 
 # 📰웹프로그래밍

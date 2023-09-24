@@ -23,7 +23,7 @@ body {
 
 #imgblock img{
     float:left;
-    width:22%;
+    width:170px;
 }
 
 .infotext{
@@ -35,6 +35,16 @@ body {
     width:60%;
     height:10em;
     color:black;
+}
+
+.infotext a {
+    margin-left:20px;
+    background-color: #807979;
+    border-radius:10px;
+    text-decoration: none;
+    padding: 3px 8px;
+    font-size:130%;
+    color:gold;
 }
 
 table {
