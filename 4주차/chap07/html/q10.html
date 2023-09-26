@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book 객체 배열 만들기</title>
+</head>
+<body>
+    <h3>book 객체 배열 만들기</h3>
+    <hr>
+    <script>
+        function getMostExpensiveIn(array){
+            let most = array[0];
+            
+            for ( let i = 1; i < array.length; i ++ ) {
+                if ( most.price < array[i].price ) {
+                    most = array[i];
+                }
+            }
+
+            return most;
+        }
+
+        let bookArray = [];
+        let successInput = true;
+        for ( let i = 0; i < 5; i++ ){
+            let input = prompt("콤마(,)로 분리하면서 책제목 저자 가격 순으로 입력").split(",");
+            if ( input.length < 3 ) {
+                document.write("입력 개수가 부족합니다.");
+                successInput = false;
+                break;
+            } else if ( isNaN( parseInt(input[2]) ) ) {
+                document.write("가격 입력이 잘못되었습니다.");
+                successInput = false;
+                break;
+            } else {
+                let newBook = new Object();
+                newBook.title = input[0];
+                newBook.author = input[1];
+                newBook.price = parseInt(input[2]);
+
+                bookArray.push(newBook);
+            }
+        }
+
+        if ( successInput == true ) {
+            
+            for ( book of bookArray ){
+                document.write(book.title, ", ", book.author, ", ", book.price);
+                document.write("<br>");
+            }
+
+            document.write("<hr>");
+
+            document.write("가장 가격이 비싼 책은 ", 
+                getMostExpensiveIn(bookArray).title);
+        }
+        
+        
+
+    </script>
+</body>
+</html>

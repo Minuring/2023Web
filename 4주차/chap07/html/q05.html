@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자열 배열 다루기</title>
+</head>
+<body>
+    <h3>문자열 배열 다루기</h3>
+    <hr>
+    <script>
+        let names = new Array("wonsun", "jaemoonlee", "kitae", "gracehwang");
+
+        //(1) 이름 출력
+        document.write("이름 : ", names.join(" "), "<br>");
+
+        //(2) 가장 긴 이름
+        let maxLengthName = names[0];
+        for (let eachName of names) {
+            if ( eachName.length > maxLengthName.length ){
+                maxLengthName = eachName;
+            } 
+        }
+        document.write("가장 긴 이름 : ", maxLengthName, "<br>");
+
+        //(3) 가장 먼저 나오는 이름
+        let fastestName = names[0];
+        for (let i = 1; i < names.length; i++) {
+            if ( names[i] < fastestName ){
+                fastestName = names[i];
+            } 
+        }
+        document.write("가장 먼저 나오는 이름 : ", fastestName, "<br>");
+
+        //(4) 증가순 이름
+        names.sort();
+        document.write( "증가순 이름 : ", names.join(" ") );
+    </script>
+</body>
+</html>

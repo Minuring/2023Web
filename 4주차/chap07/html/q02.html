@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정수 5개 입력받아 역순으로 출력</title>
+</head>
+
+<body>
+    <h3>정수 5개 입력받아 역순으로 출력</h3>
+    <hr>
+    <script>
+        array = [];
+        const maxSize = 5;
+        var isVaildInput = true;
+
+        for (let i = 0; i < maxSize; i++) {
+            let input = prompt("정수 입력", "");
+            if ( !isNaN( parseInt(input) ) ) {
+                array[i] = input;
+            } else {
+                document.write("정수가 아닙니다 !");
+                isVaildInput = false;
+                break;
+            }
+        }
+
+        if ( isVaildInput ) {
+            document.write("입력된 수의 배열<br>");
+            for (let number of array) {
+                document.write(number + " ");
+            }
+            document.write("<br><hr>");
+
+            document.write("역순으로 재정렬된 배열<br>");
+            array.reverse();
+            for (let number of array) {
+                document.write(number + " ");
+            }
+        }
+        
+    </script>
+
+</body>
+
+</html>

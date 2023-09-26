@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방문 요일에 따라 변하는 페이지</title>
+</head>
+<body>
+    <h3>일요일은 pink, 다른 요일은 gold 배경</h3>
+    <hr>
+    <script>
+        var now = new Date();
+        document.body.style.backgroundColor = 
+            ( now.getDay() == 0 ) ? "pink" : "gold";
+    </script>
+</body>
+</html>

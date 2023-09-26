@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16개의 랜덤한 색 만들기</title>
+    <style>
+        div { 
+            display : inline-block;
+            width : 150px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>16개의 랜덤한 색 만들기</h3>
+    <hr>
+    <script>
+        function getRandomHEX(){
+            return Math.floor(Math.random()*256).toString(16);
+        }
+        let str = "";
+        for ( i = 0; i < 16; i++ ) {
+            let r = getRandomHEX();
+            let g = getRandomHEX();
+            let b = getRandomHEX();
+            document.write("<div style='background-color:#");
+            document.write(r, g, b, "'>(");
+            document.write(parseInt(r,16), ",", parseInt(g,16),
+             ",", parseInt(b,16), ")</div>");
+        }
+    </script>
+</body>
+</html>
