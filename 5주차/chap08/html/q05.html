@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>z-index 스타일 프로퍼티</title>
+	<style>
+		img {
+			position: absolute;
+			width: 100px;
+			height: 140px;
+		}
+
+		#s1 { z-index: 4; }
+
+		#s2 { z-index: 3; }
+
+		#s3 { z-index: 2; }
+
+		#s7 { z-index: 1; }
+	</style>
+
+	<script>
+		function change(obj) {
+			obj.style.zIndex=0;
+			var counts = document.getElementsByTagName("img");
+			for(var i=0; i<counts.length; i++) {
+				counts[i].style.zIndex++;
+			}
+			
+		}
+	</script>
+</head>
+<body>
+	<h3>z-index 스타일 프로퍼티</h3>
+	<hr>
+	<img src="../media/spade-A.png" id="s1" onclick="change(this)">
+	<img src="../media/spade-2.png" id="s2" onclick="change(this)">
+	<img src="../media/spade-3.png" id="s3" onclick="change(this)">
+	<img src="../media/spade-7.png" id="s7" onclick="change(this)">
+</body>
+</html>

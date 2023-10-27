@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>transform.rotate()</title>
+
+	<style>
+		#img {
+			transition: width 1s;
+			width: 100px;
+			height: 100px;
+		}
+	</style>
+
+	<script>
+		var times = 1;
+		
+		function change(obj, width) {
+			times += 1;
+			obj.style.width = width * times + "px";
+		}
+	</script>
+</head>
+
+<body>
+	<h3>클릭하면 2,3,4배로 옆으로 늘어납니다.</h3>
+	<hr>
+	<img src="../media/spongebob.png" onclick="change(this, 100)" id="img">
+</body>
+</html>
