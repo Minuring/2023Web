@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>계산기 만들기</title>
+
+	<style>
+		button { width: 4rem; margin: 5px;}
+	</style>
+
+	<script>
+		function foc() {
+			var text = document.getElementById("text");
+			if(text.value == "0") text.value = "";
+		}
+
+		function back() {
+			var text = document.getElementById("text");
+			text.value = text.value.slice(0,text.value.length-1);
+		}
+
+		function reset() {
+			var text = document.getElementById("text");
+			text.value = "";
+		}
+
+		function button(e) {
+			var text = document.getElementById("text");
+			if(text.value == "0") text.value = "";
+			text.value += e.target.innerHTML;
+		}
+
+		function result() {
+			var text = document.getElementById("text");
+			text.value = eval(text.value);
+		}
+	</script>
+</head>
+<body>
+	<h3>계산기 만들기</h3>
+	<hr>
+	<form>
+		<input id="text" type="text" style="width: 400px" value="0" onfocus="foc()">
+		<table>
+			<tr>
+				<td><button onclick="back()" type="button">BACK</button></td>
+				<td><button onclick="reset()" type="button">CE</button></td>
+				<td><button onclick="reset()" type="button">C</button></td>
+				<td><button onclick="result()"type="button">=</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)" type="button">7</button></td>
+				<td><button onclick="button(event)"type="button">8</button></td>
+				<td><button onclick="button(event)"type="button">9</button></td>
+				<td><button onclick="button(event)"type="button">/</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)"type="button">4</button></td>
+				<td><button onclick="button(event)"type="button">5</button></td>
+				<td><button onclick="button(event)"type="button">6</button></td>
+				<td><button onclick="button(event)"type="button">*</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)"type="button">1</button></td>
+				<td><button onclick="button(event)"type="button">2</button></td>
+				<td><button onclick="button(event)"type="button">3</button></td>
+				<td><button onclick="button(event)"type="button">-</button></td>
+			</tr>
+			<tr>
+				<td><button onclick="button(event)"type="button">0</button></td>
+				<td><button onclick="button(event)"type="button">+</button></td>
+				<td><button type="button">NONE</button></td>
+				<td><button type="button">NONE</button></td>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>

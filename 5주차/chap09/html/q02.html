@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>라디오 버튼으로 이미지 출력</title>
+	<script>
+		function choice(obj) {
+			var img = document.getElementById("img");
+			img.src = obj.value;
+		}
+	</script>
+</head>
+<body>
+	<h3>라디오 버튼을 클릭하면 이미지를 출력합니다.</h3>
+	<hr>
+	<form>
+		<input type="radio" name="fruit" value="../media/banana.png" onclick="choice(this)">바나나
+		<input type="radio" name="fruit" value="../media/mango.png" onclick="choice(this)">망고
+		<input type="radio" name="fruit" value="../media/apple.png" onclick="choice(this)">사과
+	</form>
+	<img src="" alt="과일 사진" id="img">
+</body>
+</html>

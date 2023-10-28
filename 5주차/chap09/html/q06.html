@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>onwheel</title>
+	<script>
+		var x = 40;
+
+		function f(e) {
+			var img = e.target;			
+			if(e.wheelDelta < 0) {
+				x -= 5;
+			}
+			else {
+				x += 5;
+			}
+			img.style.width = x + "%";
+		}
+	</script>
+</head>
+<body>
+	<h3>마우스 휠을 이용한 이미지 확대/축소</h3>
+	<hr>
+	<p>
+		이미지 위에 휠을 굴리면 이미지가 축소되고 아래로 굴리면 이미지가 확대됩니다.
+	</p>
+	<img src="../media/Tulips.png" onmousewheel="f(event)" width="40%" height="auto">
+</body>
+</html>
