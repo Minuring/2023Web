@@ -4,15 +4,11 @@
     <title>DOM 객체 동적 삽입</title>
     <script>
         function addAnswer(obj,text) {
-            if(obj.sw!=1) {
-                var p = document.createElement("p");
-                p.innerHTML = text;
-                obj.parentElement.appendChild(p);
-                obj.sw=1;
-            }
+            var p = document.createElement("p");
+            p.innerHTML = text;
+            obj.parentElement.appendChild(p);
             p.onclick=function () {
                 this.parentElement.removeChild(this);
-                obj.sw=0;
             }
                 
         }
