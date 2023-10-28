@@ -146,4 +146,49 @@
   <tr><td><a href="https://minuring.github.io/2023Web/4%EC%A3%BC%EC%B0%A8/chap07/html/q10.html">실습문제 10</a></td></tr>
   <tr><th>script</th><td><a href="https://github.com/Minuring/2023Web/tree/main/4%EC%A3%BC%EC%B0%A8/chap07/script">📁 ~/script</a></td></tr>
 
+  <tr>
+    <th rowspan=30>5주차</th>
+    <th rowspan=15>8단원</th>
+    <th>Markdown</th><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/">README.md</a></td>
+  </tr>
+  <tr>
+    <th rowspan=11>HTML</th>
+    <td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/OpenChallenge_08.html">OpenChallenge 08</a></td>
+  </tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q01.html">실습문제 01</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q02.html">실습문제 02</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q03.html">실습문제 03</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q04.html">실습문제 04</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q05.html">실습문제 05</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q06.html">실습문제 06</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q07.html">실습문제 07</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q08.html">실습문제 08</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q09.html">실습문제 09</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap08/html/q10.html">실습문제 10</a></td></tr>
+  <tr><th>css</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap08/css">📁 ~/css</a></td></tr>
+  <tr><th>media</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap08/media">📁 ~/media</a></td></tr>
+  <tr><th>script</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap08/script">📁 ~/script</a></td></tr>
+
+  <tr>
+  <th rowspan=15>9단원</th>
+    <th>Markdown</th><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/">README.md</a></td>
+  </tr>
+  <tr>
+    <th rowspan=11>HTML</th>
+    <td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/OpenChallenge_09.html">OpenChallenge 09</a></td>
+  </tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q01.html">실습문제 01</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q02.html">실습문제 02</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q03.html">실습문제 03</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q04.html">실습문제 04</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q05.html">실습문제 05</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q06.html">실습문제 06</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q07.html">실습문제 07</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q08.html">실습문제 08</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q09.html">실습문제 09</a></td></tr>
+  <tr><td><a href="https://minuring.github.io/2023Web/5%EC%A3%BC%EC%B0%A8/chap09/html/q10.html">실습문제 10</a></td></tr>
+  <tr><th>css</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap09/css">📁 ~/css</a></td></tr>
+  <tr><th>media</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap09/media">📁 ~/media</a></td></tr>
+  <tr><th>script</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap09/script">📁 ~/script</a></td></tr>
+
 </table>
