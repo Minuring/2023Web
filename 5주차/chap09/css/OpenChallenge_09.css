@@ -1,0 +1,15 @@
+table { 
+    border : 1px solid blue; 
+    border-collapse : collapse; 
+    height : 100%;
+    width : 100%;
+}
+td { 
+    border : 1px solid blue; 
+    width : 10%; 
+    height : 70px;
+    padding : 0px; 
+}
+img { 
+    width : 100%;
+}
