@@ -6,8 +6,8 @@
 	<style>
 		#img {
 			transition: width 1s;
-			width: 100px;
-			height: 100px;
+			width: 200px;
+			height: 100%;
 		}
 	</style>
 
@@ -16,7 +16,8 @@
 		
 		function change(obj, width) {
 			times += 1;
-			obj.style.width = width * times + "px";
+			//obj.style.width = width * times + "px";
+			obj.style.transform = "scale("+times+",1)"; 
 		}
 	</script>
 </head>
