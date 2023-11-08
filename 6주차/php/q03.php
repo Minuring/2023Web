@@ -6,6 +6,14 @@
    if (($value % 2) == 1) print "odd";
    else print "even";
 */
+
+   echo "value가 12일 때 <br>";
+
    $value = 12;
-   print ($value % 2 == 0) ? "even" : "odd"
+   print ($value % 2 == 0) ? "even" : "odd";
+
+   echo "<br>value가 13일 때 <br>";
+   $value = 13;
+   print ($value % 2 == 0) ? "even" : "odd";
+
 ?>
