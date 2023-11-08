@@ -191,4 +191,16 @@
   <tr><th>media</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap09/media">📁 ~/media</a></td></tr>
   <tr><th>script</th><td><a href="https://github.com/Minuring/2023Web/tree/main/5%EC%A3%BC%EC%B0%A8/chap09/script">📁 ~/script</a></td></tr>
 
+<tr>
+    <th rowspan=4>6주차</th>
+    <th rowspan=4>PHP</th>
+    <th>Markdown</th><td><a href="https://minuring.github.io/2023Web/6%EC%A3%BC%EC%B0%A8/">README.md</a></td>
+  </tr>
+  <tr>
+    <th rowspan=3>PHP</th>
+    <td><a href="http://mw9505.dothome.co.kr/week1/q01.php">PHP 문제 01</a></td>
+  </tr>
+  <tr><td><a href="http://mw9505.dothome.co.kr/week1/q02.php">PHP 문제 02</a></td></tr>
+  <tr><td><a href="http://mw9505.dothome.co.kr/week1/q03.php">PHP 문제 03</a></td></tr>
+  
 </table>
