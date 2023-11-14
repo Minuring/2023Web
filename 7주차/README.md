@@ -8,17 +8,17 @@
 
 ### PHP
 - **1. [링크](http://mw9505.dothome.co.kr/week2/q01.php) for문을 이용하여 다음과 같은 출력을 하는 프로그램을 작성하시오.** <br>
-<pre>
-A
-A B
-A B C
-A B C D
-A B C D E 
-A B C D
-A B C
-A B
-A
-</pre>
+  <pre>
+  A
+  A B
+  A B C
+  A B C D
+  A B C D E 
+  A B C D
+  A B C
+  A B
+  A
+  </pre>
 
   ✏️ 점점 많아지는 단계, 줄어드는 단계를 2중 for문 2개로 나누어 작성함.<br>
   `chr(정수)` 함수를 이용해 정수를 문자화 할 수 있음.
