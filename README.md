@@ -227,6 +227,6 @@
     <td><a href="http://mw9505.dothome.co.kr/LoginForm">index.html</a></td>
   </tr>
   <tr><td><a href="https://github.com/Minuring/2023Web/tree/main/8%EC%A3%BC%EC%B0%A8/LoginForm/php/login.php">login.php</a></td></tr>
+  <tr><td><a href="https://github.com/Minuring/2023Web/blob/main/8%EC%A3%BC%EC%B0%A8/LoginForm/js/main.js">script</a></td></tr>
   <tr><td><a href="https://github.com/Minuring/2023Web/tree/main/8%EC%A3%BC%EC%B0%A8/LoginForm/css">📁 ~/css</a></td></tr>
-  <tr><td><a href="https://github.com/Minuring/2023Web/tree/main/8%EC%A3%BC%EC%B0%A8/LoginForm/js">📁 ~/script</a></td></tr>
 </table>
